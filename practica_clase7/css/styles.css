@@ -1,0 +1,55 @@
+
+body{
+    font-family: Times New Roman;
+
+}
+header{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+.title{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+main{
+    padding: 5% 15%;
+}
+.title-section{
+    background-color: #C4C4C4;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 20px;
+    color: #005677;
+    text-transform: uppercase;
+}
+
+.caracteristica{
+    font-weight: bold;
+    font-style: italic;
+}
+.fecha{
+    font-weight: bold;
+ 
+}
+
+footer{
+    background: #005677;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.call{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+li{
+    padding: 5px 0;
+}
