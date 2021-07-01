@@ -7,13 +7,14 @@
     padding: 10px;
 }
 main{
-    padding: 12% 2%;
+    padding: 0% 5% 5%;
 }
 
 .heroes{
     background-color: #00669F;
     padding: 20px;
     font-weight: 200;
+    color: white;
 }
 footer{
     background-color: #00669F;
@@ -25,12 +26,19 @@ footer{
     border: none;
     color: white;
     padding: 15px 30px;
+    margin-bottom: 5%;
 }
 .characters-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
 }
 .character{
     background-color: #F3F3F3;
+    width: 30%;
+    text-align: center;
+    position: relative;
 }
 .banner{
     height: 200px;
@@ -38,6 +46,7 @@ footer{
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-bottom: 20%;
 
 }
 
@@ -52,4 +61,28 @@ footer{
 
 .img-heroe{
     border-radius: 50%;
+    width: 35%;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+
 }
+.img-heart{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+}
+
+.description{
+    text-align: left;
+    padding: 5% 3%;
+}
+
+@media (max-width: 600px) {
+    .character{
+        width: 100%;
+    
+    }
+}
+
